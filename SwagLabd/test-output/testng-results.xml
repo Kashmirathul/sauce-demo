@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="22" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-09T21:38:05 IST" name="Suite" finished-at="2023-04-09T21:38:30 IST" duration-ms="24260">
+    <groups>
+    </groups>
+    <test started-at="2023-04-09T21:38:05 IST" name="Test" finished-at="2023-04-09T21:38:30 IST" duration-ms="24260">
+      <class name="testcases.VerifyHighestLowestPrice">
+        <test-method signature="verifyHighestPrice()[pri:0, instance:testcases.VerifyHighestLowestPrice@294425a7]" started-at="2023-04-09T21:38:19 IST" name="verifyHighestPrice" finished-at="2023-04-09T21:38:19 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHighestPrice -->
+        <test-method signature="verifyLowestPrice()[pri:0, instance:testcases.VerifyHighestLowestPrice@294425a7]" started-at="2023-04-09T21:38:19 IST" name="verifyLowestPrice" finished-at="2023-04-09T21:38:23 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLowestPrice -->
+      </class> <!-- testcases.VerifyHighestLowestPrice -->
+      <class name="testcases.VerifyAddCartTestCase">
+        <test-method signature="VerifyProductAddToCart()[pri:0, instance:testcases.VerifyAddCartTestCase@67d48005]" started-at="2023-04-09T21:38:23 IST" name="VerifyProductAddToCart" finished-at="2023-04-09T21:38:24 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductAddToCart -->
+        <test-method signature="verifyProductRemoveFromCart()[pri:0, instance:testcases.VerifyAddCartTestCase@67d48005]" started-at="2023-04-09T21:38:24 IST" name="verifyProductRemoveFromCart" finished-at="2023-04-09T21:38:24 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductRemoveFromCart -->
+      </class> <!-- testcases.VerifyAddCartTestCase -->
+      <class name="testcases.LoginTestCase$LoginTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:06 IST" name="setup" finished-at="2023-04-09T21:38:09 IST" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:10 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:10 IST" duration-ms="811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:10 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:11 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:11 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:11 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:11 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:16 IST" duration-ms="5332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:16 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:17 IST" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyInValidUser(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:17 IST" name="verifyInValidUser" description="Login negative" data-provider="getInfo" finished-at="2023-04-09T21:38:17 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUser -->
+        <test-method signature="verifyvalidUser()[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:17 IST" name="verifyvalidUser" finished-at="2023-04-09T21:38:17 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyvalidUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTestCase$LoginTestCases@a514af7]" started-at="2023-04-09T21:38:29 IST" name="tearDown" finished-at="2023-04-09T21:38:30 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTestCase$LoginTestCases -->
+      <class name="testcases.ProductDisplayTest">
+        <test-method signature="displaySauceProduct()[pri:0, instance:testcases.ProductDisplayTest@6379eb]" started-at="2023-04-09T21:38:17 IST" name="displaySauceProduct" description="verifying sauce labs backpack Title by clicking image and name" finished-at="2023-04-09T21:38:18 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySauceProduct -->
+        <test-method signature="verifyDiscriptionSauceProduct()[pri:0, instance:testcases.ProductDisplayTest@6379eb]" started-at="2023-04-09T21:38:18 IST" name="verifyDiscriptionSauceProduct" description="verifying souce labs backpack Discription by clicking image and name" finished-at="2023-04-09T21:38:19 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDiscriptionSauceProduct -->
+      </class> <!-- testcases.ProductDisplayTest -->
+      <class name="testcases.EndToEndTest">
+        <test-method signature="verifyEndToEndFlow()[pri:0, instance:testcases.EndToEndTest@9f116cc]" started-at="2023-04-09T21:38:24 IST" name="verifyEndToEndFlow" finished-at="2023-04-09T21:38:29 IST" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEndToEndFlow -->
+      </class> <!-- testcases.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
